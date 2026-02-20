@@ -17,17 +17,17 @@ int main()
     {
         printf("enter product id : ");
         scanf("%d",&s[i].productid);
-        printf("enter product name %d : ");
+        printf("enter product name : ");
         scanf("%s",&s[i].productname);
         printf("enter category : ");
         scanf("%s",&s[i].category);
         printf("enter product price : ");
         scanf("%d",&s[i].price);
     }
-    printf("\n \n ***********************************\n*********************************** \n PRODUCT DETAILS \n ***********************************\n***********************************");
+    printf("\n \n***********************************\n***********************************\n PRODUCT DETAILS \n***********************************\n***********************************");
     for (i=0;i<n;i++)
     {
-        printf("product id  : %d\n",s[i].productid);
+        printf("\nproduct id  : %d\n",s[i].productid);
         printf("product name : %s\n",s[i].productname);
         printf("product category : %s\n",s[i].category);
         printf("product price : %s\n",s[i].price);
