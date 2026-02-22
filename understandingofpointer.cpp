@@ -10,5 +10,6 @@ int main()
     cout<<"address of p : "<<&p<<endl;
     cout<<"address in p (ADDRESS OF a ): "<<p<<endl;
     cout<<"value at address in p (VALUE OF a ): "<<*p<<endl;
+    cout<<"value of a : "<<*(&a)<<endl;
     return 0;
 }
