@@ -9,7 +9,7 @@ int main()
     p=a;
     for(int i=0;i<5;i++)
     {
-        cout<<"value of a["<<i<<"] is : "<<*p<<endl;
-        p=p+1;
+        cout<<"value of a["<<i<<"] is : "<<*(p+i)<<endl;
+        //p=p+1;
     }
 }
